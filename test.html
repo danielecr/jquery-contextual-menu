@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>example Context Menu</title>
+
+<script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+<script src="jquery.contextmenu.js"></script>
+<script>
+function func1(e,el){
+  alert(el.tagName);
+}
+function func2(e,el){
+  alert(el.tagName);
+}
+$(document).ready(function(){
+  $(".linkimgs").contextmenu({'option 1':func1,
+                              'option 2':func2},
+                              'hold',1000);
+});
+</script>
+<style>
+.linkimg {
+width: 200px;
+float:left;
+height:300px;
+background-color: #11ff11;
+display:block;
+}
+</style>
+</head>
+<body>
+
+<div class="linkimg" title="hold button 1 on this area">
+div 1
+</div>
+
+<span class="linkimg" title="hold button 1 on this area">
+span 2
+</span>
+
+</body>
+</html>
