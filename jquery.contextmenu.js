@@ -107,7 +107,7 @@ return false;};
 		});
 		break;
 	    }
-	    return $this;
 	});
+	return this;
     }
 })(jQuery);
