@@ -1,0 +1,26 @@
+{
+  "name": "contextualMenu",
+  "version": "0.7.2",
+  "homepage": "https://github.com/danielecr/jquery-contextual-menu",
+  "authors": [
+    "Daniele Cruciani <daniele@smartango.com>"
+  ],
+  "description": "configurable contextual menu for right click or hold",
+  "main": "jquery.contextmenu.js",
+  "keywords": [
+    "contextmenu",
+    "context-menu",
+    "menu"
+  ],
+  "license": "MIT",
+  "dependencies": {
+      "jquery": ">=1.6"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
