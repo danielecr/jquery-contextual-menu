@@ -18,3 +18,8 @@ USE:
                               'hold',1000);
 
 Second option is 'hold','right' or 'hover'
+
+Parameters are passed to callback function
+=
+
+Callback function has event and element as input. The ratio is to have, say, the exact position where pointer was when right clicked (i.e. use it in canvas too)
